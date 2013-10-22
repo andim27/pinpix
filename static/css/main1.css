@@ -1,0 +1,389 @@
+	* {
+		margin:0;
+		padding:0;
+	}
+	html	{
+		height:100%;
+	}
+	body	{ 
+		behavior:url("js/csshover.htc"); 
+		text-align:left;
+		position:relative;
+		min-height:100%;
+		background:#D5DBDE;
+	}
+	* html body	{
+		height:100%;
+	}
+	* html div	{
+		height:1px;
+	}
+	body, input, select, textarea	{
+		color:black;
+		font:11px Tahoma, sans-serif;
+	}
+	a	{
+		color:#8BC53F;
+		text-decoration:underline; 
+	}
+	a:hover	{
+		text-decoration:none; 
+	}
+	a:active, a:focus, img, input { outline: none; }
+	img, table	{
+		border:none;
+	}
+	
+	table {
+		border-collapse:collapse;
+		width:100%;
+	}
+
+	td, th {
+		vertical-align:top;
+		text-align:left;
+		font-weight:normal;
+	}
+	ul {
+		list-style:none;
+	}
+	
+	ol{
+		margin-left : 50px;
+	}
+/*
+	Памятка по использованию селекторов browserCSSdetector.js:
+		Селекторы ОСи:
+			.win - Windows
+			.linux - Linux
+			.mac - MacOS
+			
+		Селекторы браузеров:
+			.ie - все версии ИЕ
+			.ie8 - ИЕ 8.х
+			.ie7 - ИЕ 7.x
+			.ie6 - ИЕ 6.x
+			.ie5 - ИЕ 5.x
+			.gecko - все версии фаерфокса, и остальные гекко-браузеры
+			.ff2 - фаерфокс 2
+			.ff3 - фаерфокс 3
+			.opera - все версии оперы
+			.opera8 - опера 8.x
+			.opera9 - опера 9.x
+			.konqueror - konqueror
+			.safari - сафари
+
+		Приоритеты на примере ФФ3:
+		1	.win.ff3 #id{background: #aaa}
+		2	.win.gecko #id{background: #f00}
+		3	.ff3 #id{background:#333}
+		4	.gecko #id{background:#00f}
+		5	.win #id{background: #ff0}
+ */
+	 div {
+		min-height:1px;
+	 }
+	.header	{
+		background:#373D41;
+		position:relative;
+		padding:13px 15px 0 155px;
+		height:100px;
+		color:white;
+	 }
+	.header .logo	{
+		position:absolute;
+		top:12px;
+		left:12px;
+	}
+	.header a img	{
+		vertical-align:middle;
+		margin-left:15px;
+	}
+	.header .logo img	{
+		margin-left:0;
+	}
+		.titul_head {
+		float:left;
+		font-size:18px;
+		width:auto;
+	}
+	.titul_head  span{
+		font-size:24px;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	.registerEnterBox_ru {
+		left:435px;
+		padding-left:10px;
+		width:235px;
+		position:absolute;
+	}
+	.registerEnterBox_kz {
+		left:545px;
+		padding-left:10px;
+		width:235px;
+		position:absolute;
+	}
+	.regEntBut {
+		background: url(../images/login_but_bg.png) 0 0 no-repeat;
+		width:148px;
+		padding:0 0 4px;
+		font-size:14px;
+		border:none;
+		color:white;
+		cursor:pointer;
+		height:26px;
+	}
+	.enterGreenBox {
+		position:absolute;
+		top:50px;
+		left:10px;
+		width:234px;
+		height:126px;
+		background: url(../images/login_bg.png) 0 0 no-repeat;
+		z-index:1;
+		padding:26px 0 0 13px;
+		font-size:14px;
+	}
+	.loginTxtInp {
+		height:20px;
+		width:206px;
+		border:none;
+		font-size:14px;
+		padding-top:4px;
+		background-color:white;
+		color:black;
+	}
+	.but_ok {
+		background: url(../images/but_ok1.gif) 0 0 no-repeat;
+		width:48px;
+		height:16px;
+		padding-bottom:3px;
+		border:none;
+		cursor:pointer;
+		margin-top:5px;
+		color:white;
+	}
+	.but_69 {
+		background: url(../images/but_69.gif) 0 0 no-repeat;
+		width:69px;
+		height:16px;
+		padding-bottom:3px;
+		border:none;
+		cursor:pointer;
+		margin-top:5px;
+		color:white;
+	}
+	.swfContainer	{
+		height:304px;
+		background:#575F65;
+	}
+	.content	{
+		overflow:hidden;
+		padding:30px 30px 50px 15px;
+	}
+	.ie6 .content	{
+		overflow:visible;
+	}
+	.content .righCol	{
+		float:right;
+		width:30%;
+	}
+	.content .middCol	{
+		margin-right:30%;
+		padding-right:30px;
+	}
+	.roundedBlock	{
+		background:url(../images/block_rounded_tl.gif) 0 0 no-repeat #373D41;
+		color:white;
+		margin-bottom:30px;
+		width:auto;
+	}
+	.roundedBlock .tr	{
+		background:url(../images/block_rounded_tr.gif) 100% 0 no-repeat;
+	}
+	.roundedBlock .br	{
+		background:url(../images/block_rounded_br.gif) 100% 100% no-repeat;
+	}
+	.roundedBlock .bl	{
+		background:url(../images/block_rounded_bl.gif) 0 100% no-repeat;
+		padding:15px;
+	}
+	.juryList	{
+	}
+	.juryList li	{
+		margin-bottom:15px;
+		overflow:hidden;
+	}
+	.juryList li .title	{
+	}
+	.juryList li .avatara	{
+		float:left;
+		margin-right:15px;
+	}
+	.juryList li strong	{
+		display:block;
+		margin-bottom:4px;
+		font-weight:normal;
+	}
+	.juryList li em	{
+		color:#86BC3F;
+	}
+	.juryList li.title strong	{
+		display:inline;
+		font-weight:bold;
+	}
+	.sideBlock	{
+		margin-bottom:40px;
+	}
+	h3	{
+		font-weight:normal;
+		font-size:12px;
+		margin-bottom:20px;
+	}
+	.intro	{
+		background:url(../images/ill_i_star_kz.gif) 90% 0 no-repeat;
+		padding-right:25%;
+		min-height:130px;
+	}
+	.intro p {
+		font-size:12px;
+	}	
+	.ie6 .intro	{
+		height:130px;
+	}
+	.prizes	{
+		text-align:center;
+	}
+	.prizes div	{
+		display:inline-block;
+		vertical-align:top;
+		width:29%;
+		margin:0 1%;
+		zoom:1;
+		_display:inline;
+		text-align:left;
+	}
+	.ie7 .prizes div	{
+		display:inline;
+		vertical-align:top;
+		width:29%;
+		margin:0 1%;
+		zoom:1;
+		text-align:left;
+	}
+	.prizes div img	{
+		display:block;
+		margin:0 auto 15px auto;
+		width:100%;
+	}
+	.prizes div strong	{
+		font-size:40px;
+		font-weight:normal;
+		display:block;
+		float:left;
+		width:40px;
+	}
+	.prizes div span	{
+		display:block;
+		margin-top:10px;
+	}
+	.prizes div span i	{
+		color:#8bc53f;
+		font-style:normal;
+	}
+	.registration	{
+	}
+	.registration td	{
+		width:50%;
+		padding-bottom:7px;
+	}
+	.registration .lCol	{
+		padding-right:15px;
+	}
+	.registration div	{
+		margin-top:5px;
+	}
+	.registration .i	{
+		width:99%;
+		border:none;
+		background:white;
+		margin-top:5px;
+		display:block;
+		padding:2px;
+	}
+	.registration .s1, .registration .s2, .registration .s3	{
+		border:none;
+		background:white;
+	}
+	.registration .s1	{
+		width:55px;
+		margin-right:10px;
+	}
+	.registration .s2	{
+		width:95px;
+	}
+	.registration .s3	{
+		width:99%;
+	}
+	.registration textarea	{
+		width:99%;
+		border:none;
+		background:white;
+		padding:2px;
+		height:50px;
+		overflow:auto;
+		margin-top:5px;
+		display:block;
+	}
+	.registration em	{
+		color:#8BC53F;
+	}
+	.registration .error	{
+		background:#8BC53F;
+	}
+	.OkMan	{
+		background:url(../images/ic_ok.gif) 90% 50% no-repeat;
+		padding-right:25%;
+		
+		min-height:68px;
+	}
+	.ie6 .OkMan	{
+		height:68px;
+	}
+	.OkMan em	{
+		color:#8BC53F;
+	}
+	.footer	{
+		background:url(../images/footer_logo.gif) 0 0 no-repeat;
+		padding-left:38px;
+		position:relative;
+		left:-38px;
+		min-height:30px;
+		padding-bottom:20px;
+		position:relative;
+	}
+	
+	/* CSS for popUp_juri*/
+h4 {
+	font-weight:bold;
+	font-size:36px;
+	font-family:Tahoma, Verdana, Geneva, sans-serif;
+}
+#popUp_juri {
+	font-size:14px;
+	font-family:Tahoma, Verdana, Geneva, sans-serif;
+	text-align:left;
+	background-color:#d5dbde;
+	padding:30px 35px 30px 40px;
+	width:883px;
+}
+#popUp_juri img {
+	float:left;
+	width:460px;
+	margin-right:20px;
+}
+/* END CSS for popUp_juri*/
+.reg_intro {
+	background:url(../images/ill_i_star_kz.gif) 100% 0 no-repeat;
+}

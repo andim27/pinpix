@@ -1,0 +1,31 @@
+<?php
+$ci = &get_instance();
+$admin_email = $ci->config->item('admin_email');
+// Retrieve a config item named site_name contained within the blog_settings array
+$site_title = $ci->config->item('site_name', 'blog_settings');
+$lang['comment_title_field'] = "Пікір тақырыбы:";
+$lang['comment_body_field'] = "Пікір мәтіні:";
+$lang['save'] = "Пікірлерді сақтау";
+$lang['add_comment'] = "Пікір қосу";
+$lang['comment_need_login'] = "Пікір қалдыру үшін тіркелу керек";
+$lang['comments'] = "Сын-пікірлер";
+$lang['answer'] = "Жауап";
+$lang['answer_with_quoting'] = "Дәйексөзді жауап";
+$lang['remove'] = "Жою";
+$lang['comment_title_field'] = "Пікір тақырыбы:";
+$lang['comment_body_field'] = "Пікір мәтіні:";
+$lang['save'] = "Пікірлерді сақтау";
+$lang['add_comment'] = "Пікір қалдыру";
+$lang['comment_need_login'] = "Пікір қалдыру үшін тіркелу керек";
+$lang['add_answer'] = "Өз жауабыңызды мұнда қалдырыңыз: ";
+$lang['error_delete_comment'] = "Пікірді жоюда қателік бар";
+$lang['error_data_saving'] = "Мәліметтерді сақтауда қателік бар. Кейінірек байқап көріңіз немесе $admin_email мекен-жайындағы сайт әкімшілігімен байланысыңыз";
+$lang['comment_date_field'] = 'Күні';
+$lang['comment_author_field'] = 'Авторы';
+$lang['commented_object_field'] = 'Пікір қалдыру нысаны';
+$lang['comment_mod_state_field'] = 'Moderation State';
+$lang['comment_update_field'] = 'Жаңарту';
+$lang['comment_delete_field'] = 'Жою';
+$lang['comment_mod_state_all'] = 'Барлығы';
+$lang['comment_no_data'] = 'Мәлімет жоқ';
+$lang['confirm_delete_comment'] = 'Пікірді жойғыңыз келеді ме?';

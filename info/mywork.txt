@@ -1,0 +1,87 @@
+1.Тестирование
+ - авторизации:
+
+http://team.redsquareventures.com/sf/go/artf1734?nav=1&_pagenum=1&returnUrlKey=1271685893406
+
+ http://team.redsquareventures.com/sf/go/artf1738?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+
+2.Новая ф-ть:
+
+Новый алгоритм-математика для скачивания фото
+http://team.redsquareventures.com/sf/go/artf1778?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+
+Embeded
+http://team.redsquareventures.com/sf/go/artf1741?nav=1&_pagenum=1&returnUrlKey=1271685893406
+
+Св-во для одного фото(не было изначально)
+http://team.redsquareventures.com/sf/go/artf1387?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+Анализ для флешки:
+http://team.redsquareventures.com/sf/go/artf1667?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+Внедрение новых правил вывода флеш-контейнера
+http://team.redsquareventures.com/sf/go/artf1819?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+верста-новая-правка-внедрение
+http://team.redsquareventures.com/sf/go/artf1813?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+для аватаров(не было первоначально)
+http://team.redsquareventures.com/sf/go/artf1789?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+Контейнер для категорий:
+http://team.redsquareventures.com/sf/go/artf1494?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+
+для личного кабинета(не было изначально)
+http://team.redsquareventures.com/sf/go/artf1174?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+Буквенный вывод для профайла-одного фото
+http://team.redsquareventures.com/sf/go/artf1803?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+3.Заглушка
+http://team.redsquareventures.com/sf/go/artf1419?nav=1&_pagenum=1&returnUrlKey=1271686275371
+ - специальное перекодирование верхней флеш-листалки
+
+4.Исправление(новые доработки)
+
+http://team.redsquareventures.com/sf/go/artf1507?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+для одного фото
+http://team.redsquareventures.com/sf/go/artf1837?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+корректировки для обного фото
+http://team.redsquareventures.com/sf/go/artf1817?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+для комментариев
+http://team.redsquareventures.com/sf/go/artf1798?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+4.Аватары(новое)
+http://team.redsquareventures.com/sf/go/artf1537?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+5.Подключение жюри
+http://team.redsquareventures.com/sf/go/artf1549?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+6.Изменение логики под новую верстку
+
+Комментарии:
+http://team.redsquareventures.com/sf/go/artf1549?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+Кроссбраузность:
+http://team.redsquareventures.com/sf/go/artf1678?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+7.Новая логика для верхнего флеш-контейнера
+
+http://team.redsquareventures.com/sf/go/artf1820?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+8. Корректировка математики вывода превью:
+http://team.redsquareventures.com/sf/go/artf1858?nav=1&_pagenum=1&returnUrlKey=1271686275371
+
+9.Перевод на казах.
+ - где дали там и перевели(дно фото,разделы,названия кнопок и т.д)
+
+10.Новая логика для расчета рейтинга для одного фото
+
+
+

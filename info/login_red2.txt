@@ -1,0 +1,13 @@
+http://team.redsquareventures.com/sf/tracker/do/listTrackers/projects.s2s/tracker
+
+http://pinpix.prototypeboom.com/
+
+login binform psw bi1234
+
+213.152.158.122 pinpix.prototypeboom.com
+213.152.158.122 static.pinpix.prototypeboom.com
+213.152.158.122 photo.pinpix.prototypeboom.com
+
+213.152.158.114 vidik.prototypeboom.com
+213.152.158.114 static.vidik.prototypeboom.com
+213.152.158.114 video.vidik.prototypeboom.com

@@ -1,0 +1,25 @@
+
+ смотреть pinpix.prototypeboom.com и  vidik.prototypeboom.com  доступ к ним я высылал вам письмом.
+ Единственно, для впн нужно указать другой сервер  v.redsquareventures.com вместо 213.152.152.14
+
+На московской площадке организованы stage-сервера для проектов Vidik и Pinpix. Доступ через VPN, IP-адреса и пароли root:
+pinpix.rsv.local
+192.168.55.7
+7cBqi0i9z2
+
+vidik.rsv.local
+192.168.55.8
+n04XeT3WUV
+
+ 
+Локально на каждом сервере установлен Mysql (root  'pixvidik2010') и мемкеш, созданы БД (pinpixdb и vidikdb) и пользователи (pinpix и vidik) c прежними паролями.
+ 
+В ДНС созданы записи, смотрящие на общий nginx-сервер:
+pinpix.prototypeboom.com      
+static.pinpix.prototypeboom.com          
+photo.pinpix.prototypeboom.com
+vidik.prototypeboom.com                         
+static.vidik.prototypeboom.com 
+video.vidik.prototypeboom.com
+ 
+При обращении извне будет запрашиваться НТТР-авторизация: rsv / justsuper.
