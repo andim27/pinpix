@@ -1,0 +1,1 @@
+This is pinpix.kz photo-hosting project.Site was closed but code is alive.Co-developer is ->  skype:andrey_makarevich
